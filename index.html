@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- //onclick="console.log('hello');" -->
+<body id="signInPage">
+
+    <header>
+        <div  class="login ">
+            <h1 class=" head-line text-center  pt-4  fs-1"> Smart Login System</h1>
+            <input type="email"  name="userEmail" placeholder="Enter you email" >
+            <input type="password" class=" mb-4"  name="userPassword" placeholder="Enter you password" >
+            <p class=" d-none failure-inputs text-center mb-3" >All inputs is required</p>
+            <p class=" d-none wrong-data text-center mb-3" >the email or password isn't correct, please try again</p>
+            <button id="logInButton"  class=" d-block btn btn-danger mx-auto mb-3">Login</button>
+            <p class="fw-bold text-center text-white">Don't have an account?<a href="signup.html"> Sign up</a></p>
+        </div>
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

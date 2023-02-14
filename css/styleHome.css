@@ -1,0 +1,18 @@
+.log-out{
+    padding: 0.5rem 1rem;
+    border: 1px solid gold!important;
+    background-color: transparent;
+    color: #5d88a3;
+}
+nav{
+    box-shadow: 0px 10px 100px rgb(15, 15, 15);
+}
+body{
+    background-color: #24353f;
+}
+.welcome-msg{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.678);
+    color: #17a2b8;
+    width: 40%;
+    transform: translateY(-50%);
+}

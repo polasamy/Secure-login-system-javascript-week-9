@@ -1,0 +1,61 @@
+body{
+    background-color: #24353f;
+}
+.login{
+    width:45%;
+    margin: 2.5rem auto;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.658);
+    padding: 1rem;
+}
+.login .head-line{
+    color: #17a2b8;
+}
+input{
+    background-color: #24353f;
+    width: 90%;
+    margin:1rem auto;
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+    display: block;
+    color: white;
+    outline: none;
+    border: 1px solid #999da5!important;
+    border-radius: 3px;
+}
+input::placeholder{
+    color: #999da5;
+}
+input:focus{
+    border: 1px solid #6b98f1!important;
+
+}
+button{
+    width: 90%;
+    /* margin:2rem auto; */
+    background-color: #24353f!important;
+    color: #17a2b8!important;
+    border: 1px solid #17a2b8!important;
+}
+button:hover{
+    background-color: #17a2b8!important ;
+    color: white!important;
+}
+.login a{
+text-decoration: none;
+color: white;}
+
+.success-msg{
+    color: #28a745;
+}
+.failure-email{
+    color: #a72828;
+}
+.failure-inputs{
+    color: #a72828;
+}
+.wrong-data{
+    color: #a72828;
+}
+
+
+
